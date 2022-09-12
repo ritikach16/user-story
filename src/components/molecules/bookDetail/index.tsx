@@ -42,4 +42,5 @@ function BookDetail(props: BookDetailProps) {
   );
 }
 
+
 export default BookDetail;
