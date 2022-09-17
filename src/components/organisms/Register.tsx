@@ -1,4 +1,4 @@
-import React, { useState, useEffect, ChangeEvent } from "react";
+import { useState, useEffect, ChangeEvent } from "react";
 import MaleIcon from "@mui/icons-material/Male";
 import WcIcon from "@mui/icons-material/Wc";
 import FemaleIcon from "@mui/icons-material/Female";
