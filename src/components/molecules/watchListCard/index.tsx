@@ -5,13 +5,13 @@ export interface WatchListProps {
   coinName: string;
   cost: number;
   time: number;
-  OnClick: () => void;
+  onClick: () => void;
 }
 
 function WatchListCard(props: WatchListProps) {
   return (
     <Grid container>
-      <Grid item onClick={props.OnClick}>
+      <Grid item onClick={props.onClick}>
         <Typography>{props.coinName}</Typography>
         <Typography>{props.cost}</Typography>
         <Typography>{props.time}</Typography>
