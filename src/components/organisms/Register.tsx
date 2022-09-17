@@ -79,13 +79,13 @@ const Register = () => {
                 value={gen}
                 label={"select your gender"}
                 onChange={handleGender}
-                sx={{width: "150px"}}
+                sx={{ width: "150px" }}
               >
                 <MenuItem value="female">Female</MenuItem>
                 <MenuItem value="male">Male</MenuItem>
               </Select>
             </FormControl>
-            <Box sx={{marginTop: "10px"}}>
+            <Box sx={{ marginTop: "10px" }}>
               <Image Img={genImage} />
             </Box>
           </Box>

@@ -6,10 +6,10 @@ interface ImageProp {
   Img: SvgIconComponent;
 }
 
-const Image = ({Img}: ImageProp) => {
+const Image = ({ Img }: ImageProp) => {
   return (
     <Box>
-     <Img/>
+      <Img />
     </Box>
   );
 };
